@@ -36,7 +36,7 @@ That means developers can query across tools like GitHub, Slack, Datadog, PagerD
 
 The hackathon is designed for developers who want to explore how modern AI agents can work across multiple tools, APIs, databases, and files using a unified SQL-based workflow powered by Coral.
 
-**Hackathon Tracks:**
+**Hackathon Tracks**
 
 ![The Treasure Map section of the hackathon page, showing Track 1 Build an Enterprise Agent and Track 2 Build a Personal Agent, each with example project ideas](images/may-edition/treasure-map.webp)
 
