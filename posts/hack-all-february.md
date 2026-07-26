@@ -12,7 +12,7 @@ The idea was simple - **four weeks, four back-to-back hackathons, and a focus on
 
 ## Hack All February at a Glance
 
-![The Hack All February schedule, with each of the four hackathon weeks mapped onto a racing circuit](images/hack-all-february/circuit.jpeg)
+![The Hack All February schedule, with each of the four hackathon weeks mapped onto a racing circuit](images/hack-all-february/circuit.webp)
 
 The scale of the event showed how powerful community driven building can be.
 
@@ -33,7 +33,7 @@ Social media was filled with demos, build logs, and project showcases as partici
 
 Here's what some participants had to say:
 
-![Participant testimonials shared on X during the hackathons](images/hack-all-february/testimonials.jpeg)
+![Participant testimonials shared on X during the hackathons](images/hack-all-february/testimonials.webp)
 
 The excitement across the community showed how powerful collaborative building can be when developers come together with a shared goal.
 
@@ -123,7 +123,7 @@ Sponsors were particularly excited to see the creativity and technical depth com
 
 Here is what some of them shared about their experience:
 
-![Testimonial from Or Hiltch, CEO of Accomplish.ai, on the impact of the hackathon](images/hack-all-february/accomplish-testimonial.png)
+![Testimonial from Or Hiltch, CEO of Accomplish.ai, on the impact of the hackathon](images/hack-all-february/accomplish-testimonial.webp)
 
 ## Connect With Us
 

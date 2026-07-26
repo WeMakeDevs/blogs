@@ -26,7 +26,7 @@ You do not need prior experience with OpenMetadata to take part. The sections be
 
 ## Data Market Is Compounding
 
-![An office worker lost in a maze of application windows, with a speech bubble reading 47%](images/back-to-metadata/data-market.jpeg)
+![An office worker lost in a maze of application windows, with a speech bubble reading 47%](images/back-to-metadata/data-market.webp)
 
 - **People still cannot find the data they need**: [Gartner surveyed 4,861 full-time employees](https://www.gartner.com/en/newsroom/press-releases/2023-05-10-gartner-survey-reveals-47-percent-of-digital-workers-struggle-to-find-the-information-needed-to-effectively-perform-their-jobs) and found 47% struggle to find the information required to perform their jobs effectively. The same work noted knowledge workers use an average of 11 applications compared with 6 in 2019. More tools without a shared catalog usually means more silos, not fewer.
 
@@ -46,7 +46,7 @@ If those trends match what your leadership deck already claims, this hackathon i
 
 ## Why OpenMetadata And Why Now?
 
-![Split illustration contrasting one engineer drowning in data chaos with a team working calmly around a single Metadata Central hub connected to databases, analytics, and governance](images/back-to-metadata/why-openmetadata.jpeg)
+![Split illustration contrasting one engineer drowning in data chaos with a team working calmly around a single Metadata Central hub connected to databases, analytics, and governance](images/back-to-metadata/why-openmetadata.webp)
 
 Most teams add new tables, jobs, and dashboards faster than anyone can write the story of how they connect. That gap is how two charts can show different answers for the same metric, or how a new engineer spends a week learning which pipeline actually feeds production.
 
@@ -58,7 +58,7 @@ The platform is open source, developed in public with community contributions, w
 
 We grouped project ideas into six tracks so you are not staring at a blank page. Think of them as alternate timelines you can repair, not boxes you must stay inside.
 
-![A hackathon participant standing at a START platform where six colored arrows branch off in different directions under a banner reading Choose Your Timeline](images/back-to-metadata/timeline.jpeg)
+![A hackathon participant standing at a START platform where six colored arrows branch off in different directions under a banner reading Choose Your Timeline](images/back-to-metadata/timeline.webp)
 
 1. **MCP Ecosystem and AI Agents**: If you want to explore how models and tools talk to metadata in natural language, auto-classification, smarter discovery, or assistants that know your catalog better than your newest hire, this is your lane.
 
@@ -76,7 +76,7 @@ You can browse a fuller [idea board on GitHub](https://github.com/orgs/open-meta
 
 ## Prizes That Hurt If You Lose Them
 
-![Hackathon prize banner showing an Apple iPad, Apple MacBook Neo, and Keychron mechanical keyboards for every team member, prizes worth $7,000, plus job interviews at Collate](images/back-to-metadata/prizes.jpeg)
+![Hackathon prize banner showing an Apple iPad, Apple MacBook Neo, and Keychron mechanical keyboards for every team member, prizes worth $7,000, plus job interviews at Collate](images/back-to-metadata/prizes.webp)
 
 We put seven thousand dollars in prizes on the table, and we structured rewards so they do not punish collaboration. Teams can be up to four people, and every member of a winning team gets the full prize tier, not a split that makes you regret helping a friend.
 
@@ -90,7 +90,7 @@ The contribution track pays **$100 per merged pull request** that closes an issu
 
 ## Your Roadmap To Winning
 
-![A team of four developers celebrating around a table with a trophy, laptop, tablet, keyboard, and a bag of prize money](images/back-to-metadata/roadmap-to-winning.jpeg)
+![A team of four developers celebrating around a table with a trophy, laptop, tablet, keyboard, and a bag of prize money](images/back-to-metadata/roadmap-to-winning.webp)
 
 These four moves line up with how judges think about submissions. Treat them as your plan, not a vague wish list.
 
@@ -119,7 +119,7 @@ Cross these off and you are ahead of the pack. Let us make data easier to find, 
 
 ## Social Buzz And Why Community Matters
 
-![Slack introduction from a full stack developer with nine years of experience saying they would love to participate in the Back to the Metadata hackathon](images/back-to-metadata/social-buzz.jpeg)
+![Slack introduction from a full stack developer with nine years of experience saying they would love to participate in the Back to the Metadata hackathon](images/back-to-metadata/social-buzz.webp)
 
 People are already talking about Back to the Metadata on X and [LinkedIn](https://www.linkedin.com/posts/bibhupradhanofficial_backtometadata-hackathon-opensource-activity-7450904704273866752-dgSn). Follow the WeMakeDevs and OpenMetadata accounts and search for the hackathon name if you want a feel for who is in before you register.
 

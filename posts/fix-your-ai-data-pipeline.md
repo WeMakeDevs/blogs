@@ -12,7 +12,7 @@ An agent might know how to write code, summarize incidents, answer questions, or
 
 ## Why Existing Agent Workflows Break?
 
-![Broken Robot](images/fix-your-ai-data-pipeline/broken-robot.jpeg)
+![Broken Robot](images/fix-your-ai-data-pipeline/broken-robot.webp)
 
 Most AI agents today interact with company systems one integration at a time. To answer even a simple question, an agent may need to query GitHub, Slack, Datadog, and other tools separately, then parse responses, combine results manually, retry failed requests, and reformat outputs before reasoning over them.
 
@@ -20,7 +20,7 @@ This creates major challenges for modern AI workflows, too many tool calls, high
 
 ## Feed Correct Data To AI Using Coral
 
-![Coral Abstract Image](images/fix-your-ai-data-pipeline/coral-abstract-image.jpeg)
+![Coral Abstract Image](images/fix-your-ai-data-pipeline/coral-abstract-image.webp)
 
 [Coral](https://github.com/withcoral/coral) is an open-source data retrieval layer for AI agents.
 
@@ -38,7 +38,7 @@ ON github.issues.id = linear.attachments.issue_id
 
 ### How Coral Works?
 
-![Coral Workflow](images/fix-your-ai-data-pipeline/coral-workflow.jpeg)
+![Coral Workflow](images/fix-your-ai-data-pipeline/coral-workflow.webp)
 
 Coral sits between AI agents and data sources, acting as a unified query layer for retrieval. Coral allows agent to query everything through SQL. The agent simply writes a SQL query, Coral translates it into API calls or file reads, fetches the required data, performs joins and query execution locally, and returns a single structured result.
 
@@ -58,7 +58,7 @@ Coral benchmarked its system against direct provider MCP integrations across rea
 
 Coral improved Claude’s accuracy by 31% on complex retrieval and coding-agent tasks while reducing LLM costs by 70% compared to direct data integrations. Across all evaluated tasks, Coral also reduced latency by 42% compared to direct provider MCP workflows.
 
-![Accuracy](images/fix-your-ai-data-pipeline/accuracy.jpeg)
+![Accuracy](images/fix-your-ai-data-pipeline/accuracy.webp)
 
 ### Get Started in Seconds
 
@@ -82,7 +82,7 @@ Coral is open source and self-hosted. You can install it locally and start query
 
 ## One-Week Hackathon Challenge: Fix AI Data Pipelines
 
-![Coral Hackathon](images/fix-your-ai-data-pipeline/coral-hackathon.jpeg)
+![Coral Hackathon](images/fix-your-ai-data-pipeline/coral-hackathon.webp)
 
 [The Pirates of the Coral-Bean Hackathon](https://www.wemakedevs.org/hackathons/coral) is a hackathon focused on building AI-powered systems using Coral.
 
@@ -92,7 +92,7 @@ Whether it is debugging agents, observability workflows, coding copilots, enterp
 
 ### Treasure Pool
 
-![Coral Reward Pool](images/fix-your-ai-data-pipeline/coral-reward-pool.jpeg)
+![Coral Reward Pool](images/fix-your-ai-data-pipeline/coral-reward-pool.webp)
 
 Hackathon includes more than **$10,000** in prizes and bounties.
 
@@ -100,7 +100,7 @@ Hackathon includes more than **$10,000** in prizes and bounties.
 
 - Every team member of top personal agent team wins a Apple iPad.
 
-![Coral Giveaway](images/fix-your-ai-data-pipeline/coral-giveaway.jpeg)
+![Coral Giveaway](images/fix-your-ai-data-pipeline/coral-giveaway.webp)
 
 1. **AI Survey Giveaway**: Participants who fill out the survey and star the [Coral Repository](https://github.com/withcoral/coral?utm_source=wemakedevs&utm_medium=event&utm_campaign=hackathon-may-2026&utm_content=github-repo) will also be eligible to win **Nike Air Jordans, Logitech MX Master 3, and Keychron keyboard**.
 
@@ -108,7 +108,7 @@ Hackathon includes more than **$10,000** in prizes and bounties.
 
 ### Special Bounties
 
-![Coral Special Bounties](images/fix-your-ai-data-pipeline/coral-special-bounties.jpeg)
+![Coral Special Bounties](images/fix-your-ai-data-pipeline/coral-special-bounties.webp)
 
 1. **Claude Max Vouchers For 50 Best Showcases (Worth $5000)**: Share your project journey in the Coral Discord and on social media for a chance to win 1-month Claude Max vouchers and get featured on Kunal Kushwaha’s YouTube channel (870K+ subscribers).
 

@@ -14,7 +14,7 @@ This month WeMakeDevs is bringing two very big opportunities for developers who 
 
 ## Pirates Of The Coral-bean Hackathon ($10,000)
 
-![Pirates of the Coral-bean Hackathon poster showing the May 25-31 dates and prizes worth $10,000+, including a MacBook Neo, an iPad and a Keychron keyboard](images/may-edition/coral-thumbnail.jpeg)
+![Pirates of the Coral-bean Hackathon poster showing the May 25-31 dates and prizes worth $10,000+, including a MacBook Neo, an iPad and a Keychron keyboard](images/may-edition/coral-thumbnail.webp)
 
 The [Pirates Of The Coral-bean Hackathon](https://www.wemakedevs.org/hackathons/coral) will bring builders into the world of AI agents powered by Coral. The core idea behind Coral is extremely powerful and instead of writing endless code between APIs, databases, files, and external services, Coral allows developers to query everything as SQL.
 
@@ -38,7 +38,7 @@ The hackathon is designed for developers who want to explore how modern AI agent
 
 **Hackathon Tracks:**
 
-![The Treasure Map section of the hackathon page, showing Track 1 Build an Enterprise Agent and Track 2 Build a Personal Agent, each with example project ideas](images/may-edition/treasure-map.jpeg)
+![The Treasure Map section of the hackathon page, showing Track 1 Build an Enterprise Agent and Track 2 Build a Personal Agent, each with example project ideas](images/may-edition/treasure-map.webp)
 
 1. [**Enterprise Agents**](https://www.wemakedevs.org/hackathons/coral#tracks): Participants can build agents that retrieve data across multiple sources using Coral and solve a real problem for an organisation.
 
@@ -46,7 +46,7 @@ The hackathon is designed for developers who want to explore how modern AI agent
 
 ### $10,000 In Treasures: Rewards For Every Team Member
 
-![Captain's Bounty section listing one winning crew per track with a MacBook Neo for every Enterprise Agent teammate and an Apple iPad for every Personal Agent teammate](images/may-edition/captains-bounty.jpeg)
+![Captain's Bounty section listing one winning crew per track with a MacBook Neo for every Enterprise Agent teammate and an Apple iPad for every Personal Agent teammate](images/may-edition/captains-bounty.webp)
 
 Pirates of the Coral-bean Hackathon includes more than **$10,000** in prizes and bounties. There is one winning crew per track and each crew can have up to four members, and every teammate gets their own prize.
 
@@ -56,7 +56,7 @@ Pirates of the Coral-bean Hackathon includes more than **$10,000** in prizes and
 
 ### Special Bounties
 
-![Special Bounties section showing four extra challenges - early bird swag, Discord showcases, building a new source spec, and writing end-to-end guides](images/may-edition/special-bounties.jpeg)
+![Special Bounties section showing four extra challenges - early bird swag, Discord showcases, building a new source spec, and writing end-to-end guides](images/may-edition/special-bounties.webp)
 
 1. **Claude Max Vouchers For 50 Best Showcases (Worth $5000)**: Share your project journey in the Coral Discord and on social media for a chance to win 1-month Claude Max vouchers and get featured on Kunal Kushwaha's YouTube channel (870K+ subscribers).
 
@@ -80,7 +80,7 @@ What makes Kestra genuinely useful is how well it scales with real-world needs. 
 
 ### Workflow Orchestration Challenge And Why You Should Take It?
 
-![Workflow Orchestration Challenge poster showing May 4-17 dates, a free course, a certificate, and prizes worth $4,000](images/may-edition/workflow-challenge.jpeg)
+![Workflow Orchestration Challenge poster showing May 4-17 dates, a free course, a certificate, and prizes worth $4,000](images/may-edition/workflow-challenge.webp)
 
 The [Workflow Orchestration Challenge](https://www.wemakedevs.org/orchestration) is a beginner-friendly learning event where developers get hands-on with workflow orchestration, covering how modern systems coordinate APIs, jobs, pipelines, services, and cloud workflows in production.
 
@@ -90,7 +90,7 @@ The [Workflow Orchestration Challenge](https://www.wemakedevs.org/orchestration)
 
 - Prizes worth $4,000 give participants the chance to win premium tech prizes through rolling draws.
 
-![Prizes worth $4,000 for the challenge - MacBook Neo, iPad Pro, iPhone 17e and Bose speakers, with winners picked on a rolling basis](images/may-edition/workflow-challenge-prizes.jpeg)
+![Prizes worth $4,000 for the challenge - MacBook Neo, iPad Pro, iPhone 17e and Bose speakers, with winners picked on a rolling basis](images/may-edition/workflow-challenge-prizes.webp)
 
 ### Steps To Take Part In The Challenge
 
