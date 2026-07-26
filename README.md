@@ -46,7 +46,6 @@ it won't appear on the site and won't break anything either.
 **Everything else is optional**, but you want `description` (it's what people read
 on the blog index) and `tags` (the filter buttons).
 
-There is no `coverImage` field — the cover is found by filename. See below.
 
 | Field | What it does |
 | --- | --- |
