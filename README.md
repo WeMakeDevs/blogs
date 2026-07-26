@@ -14,7 +14,8 @@ Markdown and open a pull request, you have everything you need.
 1. Add one Markdown file to `posts/`. The filename becomes the URL:
    `posts/my-post.md` → `wemakedevs.org/blogs/my-post`
    Use lowercase letters, numbers and hyphens only.
-2. Add your images to `images/my-post/`.
+2. Add your images to `images/my-post/`, including `cover.png` — the 1200×630
+   image used on the card and in link previews.
 3. If this is your first post, add yourself to `authors.json`.
 4. Open a PR.
 
@@ -36,7 +37,6 @@ description: "What broke, what we changed, and the metrics that told us it worke
 datePublished: 2026-07-24
 author: kunal-kushwaha
 tags: ["kubernetes", "devops"]
-coverImage: images/scaling-kubernetes-to-10k-pods/cover.png
 ---
 ```
 
@@ -44,7 +44,9 @@ coverImage: images/scaling-kubernetes-to-10k-pods/cover.png
 it won't appear on the site and won't break anything either.
 
 **Everything else is optional**, but you want `description` (it's what people read
-on the blog index), `tags` (the filter buttons) and `coverImage`.
+on the blog index) and `tags` (the filter buttons).
+
+There is no `coverImage` field — the cover is found by filename. See below.
 
 | Field | What it does |
 | --- | --- |
@@ -53,7 +55,6 @@ on the blog index), `tags` (the filter buttons) and `coverImage`.
 | `description` | 1–2 sentences, shown on cards and in search results |
 | `author` | A key from `authors.json` |
 | `tags` | Reuse existing tags where you can, rather than inventing near-duplicates |
-| `coverImage` | Path from the repo root. **1200×630 pixels** — see below |
 | `draft` | `true` hides the post — safe to merge unfinished work |
 | `seoTitle` / `seoDescription` | Only if these should differ from the on-page text |
 | `canonicalUrl` | If the post was published elsewhere first |
@@ -64,21 +65,35 @@ Reading time is calculated automatically. Don't write it yourself.
 
 ## The cover image
 
-**1200 × 630 pixels.** Not "roughly that" — exactly that.
+**Name it `cover.png` and put it in your post's image folder. 1200 × 630 pixels.**
+
+```
+posts/my-post.md            ->  images/my-post/cover.png
+```
+
+You don't declare it anywhere. The site looks for `images/<your-slug>/cover.png`
+(or `.jpg`, `.jpeg`, `.webp`) and uses whatever it finds, so the filename is the
+whole configuration. Get the name right and it works; there's nothing else to
+keep in sync.
 
 This one image does two jobs. On the site it's the picture on your post's card
 and at the top of the post. Off the site it's the **link preview** — the card
 people see when your post is shared on X, LinkedIn, Slack, WhatsApp or Discord.
 Those platforms all expect 1200×630 (a 1.91:1 rectangle), and it's the second
-job that makes the size strict: get it wrong and every share of your post is
+job that makes the size matter: get it wrong and every share of your post is
 cropped badly, at the exact moment you most want it to look good.
 
 | | |
 | --- | --- |
-| **Dimensions** | 1200 × 630 pixels, exactly |
-| **Format** | `.png` or `.jpg` |
+| **Dimensions** | 1200 × 630. A larger image of the same 1.91:1 shape (2400×1260) is fine; a different shape is not |
+| **Format** | `.png`, `.jpg`, `.jpeg` or `.webp` |
 | **File size** | Under 1 MB. Compress it — [Squoosh](https://squoosh.app) does this in a browser |
-| **Where** | `images/<your-post-slug>/cover.png` |
+| **Filename** | `cover`, exactly. `hero.png` or `cover-final.png` will not be found |
+| **Where** | `images/<your-post-slug>/` — the same folder as the rest of your images |
+
+A check on your PR will tell you if the name or the dimensions are off, so you
+don't have to measure by hand. Only keep one `cover.*` file per post; two is
+ambiguous and the check will say so.
 
 Two things worth knowing while you design it:
 
@@ -87,6 +102,17 @@ Two things worth knowing while you design it:
   large words, not a paragraph.
 - **Keep the edges quiet.** Some clients crop to a square or round the corners.
   Leave roughly 60px of breathing room around anything that must survive.
+
+### If you don't add one
+
+You get one anyway. When your post is merged, a branded card is generated from
+your title, tags, author and date and committed to `images/<your-slug>/cover.png`.
+Your markdown isn't touched — the file appearing at that path *is* the whole
+change. Every published post ends up with a cover one way or the other.
+
+So skipping it is a real option — it just means your post looks like every other
+coverless post instead of looking like yours. If you have an image worth using,
+use it.
 
 ---
 
@@ -182,14 +208,17 @@ See [our CI rewrite](./why-we-rewrote-our-ci-in-go.md).
 
 ## Checking your work before you merge
 
-There's no preview build, so:
+**A check runs on your PR** and covers the mechanical things: frontmatter that
+won't parse, a missing `title` or `datePublished`, an `author` who isn't in
+`authors.json`, image paths that point at nothing, and a cover image of the
+wrong shape. If it's green, your post will appear on the site.
+
+It can't tell you whether the post *reads* well, so:
 
 - **GitHub's own Markdown preview** catches most formatting mistakes. Use the
   "Preview" tab when editing, or view the file on your PR's Files Changed tab.
-- **Check your frontmatter is between two `---` lines** and that `title` and
-  `datePublished` are both present. This is the most common thing to get wrong.
-- **Check image paths** by clicking them in the GitHub preview. If the image
-  doesn't load there, it won't load on the site either.
+- **Check image paths render**, not just that they resolve — the check only
+  knows the file exists, not that it's the image you meant.
 
 `posts/markdown-torture-test.md` is a reference post that exercises every
 supported feature. Copy from it if you're unsure how something is written.

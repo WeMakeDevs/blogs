@@ -1,0 +1,65 @@
+name: Generate covers
+
+# A post merged without a `coverImage` gets one rendered by the website and
+# committed back here, so every published post has a real image file — for the
+# card grid, the RSS feed, and the link preview when someone shares it.
+#
+# Runs on `main` rather than on the PR on purpose: committing to a pull request
+# branch means `pull_request_target` and write access to forks, which is a lot
+# of blast radius for a nicety. On `main` it's an ordinary bot commit, and the
+# push it makes re-fires the site's revalidate webhook anyway.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "posts/**"
+  workflow_dispatch:
+
+# The bot commit is itself a push to main. `[skip ci]` in its message stops
+# GitHub from starting a second run, and this group stops two merges in quick
+# succession from racing each other to push.
+concurrency:
+  group: generate-covers
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install script dependencies
+        run: npm install --prefix .github/scripts --no-audit --no-fund
+
+      - name: Generate missing covers
+        env:
+          # Override with a repository variable to point at a preview deploy.
+          OG_ENDPOINT: ${{ vars.OG_ENDPOINT || 'https://wemakedevs.org/api/og/blog-cover' }}
+          # Same value as BLOGS_OG_SECRET in the website's environment.
+          BLOGS_OG_SECRET: ${{ secrets.BLOGS_OG_SECRET }}
+        run: node .github/scripts/generate-covers.mjs
+
+      - name: Commit generated covers
+        run: |
+          if git diff --quiet; then
+            echo "No covers were generated; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add posts images
+          git commit -m "chore: generate cover images for posts without one [skip ci]"
+          git push
+
+      # The safety net. By this point generation has run, so a post still
+      # missing a cover means something actually broke.
+      - name: Check every published post has a cover
+        run: node .github/scripts/validate-posts.mjs --require-cover

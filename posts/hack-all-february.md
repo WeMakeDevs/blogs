@@ -4,7 +4,6 @@ description: "Four back-to-back hackathons, 20,000+ participants and $40,000+ in
 datePublished: 2026-03-12
 author: kunal-kushwaha
 tags: ["hackathon", "technical"]
-coverImage: images/hack-all-february/cover.jpeg
 ---
 
 In February 2026, [WeMakeDevs](https://www.wemakedevs.org) turned the entire month into a celebration of building with [Hack All February](https://www.wemakedevs.org/february).

@@ -4,7 +4,6 @@ description: "Two WeMakeDevs events this May - a $10,000 AI agent hackathon with
 datePublished: 2026-05-10
 author: kunal-kushwaha
 tags: ["hackathon", "technical"]
-coverImage: images/may-edition/cover.jpeg
 ---
 
 This month WeMakeDevs is bringing two very big opportunities for developers who want to learn modern infrastructure skills, build creative projects, and participate in community driven events:

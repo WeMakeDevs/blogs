@@ -4,7 +4,6 @@ description: "The Back to the Metadata Hackathon gives you 10 days to build anyt
 datePublished: 2026-04-20
 author: kunal-kushwaha
 tags: ["hackathon", "technical"]
-coverImage: images/back-to-metadata/cover.png
 ---
 
 The fastest organizations are no longer competing only on how quickly they ship code. They are racing to keep data legible across services so dashboards, models, and audits point at the same facts, and **metadata is the layer where that alignment actually happens**.

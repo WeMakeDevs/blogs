@@ -4,7 +4,6 @@ description: "Learn how to fix your AI pipelines and earn $10,000 while doing it
 datePublished: 2026-05-16
 author: kunal-kushwaha
 tags: ["hackathon", "technical"]
-coverImage: images/fix-your-ai-data-pipeline/cover.jpeg
 ---
 
 AI agents are becoming more capable every day, but most of them still struggle with one major problem - **accessing and reasoning across real-world data**.

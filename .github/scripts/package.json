@@ -1,0 +1,9 @@
+{
+  "name": "wmd-blogs-scripts",
+  "private": true,
+  "type": "module",
+  "description": "CI-only helpers. Writers never need to install or run these.",
+  "dependencies": {
+    "gray-matter": "4.0.3"
+  }
+}

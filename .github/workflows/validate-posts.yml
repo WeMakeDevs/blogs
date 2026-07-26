@@ -1,0 +1,33 @@
+name: Validate posts
+
+# Runs on the PR so a contributor finds out about a typo'd frontmatter field
+# here, rather than by noticing their post never appeared on the site.
+#
+# Deliberately does NOT require a cover image: a post without one gets a
+# generated card on merge (see generate-covers.yml), so failing the PR for it
+# would block writers on something CI does for them.
+
+on:
+  pull_request:
+    paths:
+      - "posts/**"
+      - "images/**"
+      - "authors.json"
+      - ".github/scripts/**"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install script dependencies
+        run: npm install --prefix .github/scripts --no-audit --no-fund
+
+      - name: Validate posts
+        run: node .github/scripts/validate-posts.mjs
