@@ -53,12 +53,40 @@ on the blog index), `tags` (the filter buttons) and `coverImage`.
 | `description` | 1–2 sentences, shown on cards and in search results |
 | `author` | A key from `authors.json` |
 | `tags` | Reuse existing tags where you can, rather than inventing near-duplicates |
-| `coverImage` | Path from the repo root. **1200×630 pixels** |
+| `coverImage` | Path from the repo root. **1200×630 pixels** — see below |
 | `draft` | `true` hides the post — safe to merge unfinished work |
 | `seoTitle` / `seoDescription` | Only if these should differ from the on-page text |
 | `canonicalUrl` | If the post was published elsewhere first |
 
 Reading time is calculated automatically. Don't write it yourself.
+
+---
+
+## The cover image
+
+**1200 × 630 pixels.** Not "roughly that" — exactly that.
+
+This one image does two jobs. On the site it's the picture on your post's card
+and at the top of the post. Off the site it's the **link preview** — the card
+people see when your post is shared on X, LinkedIn, Slack, WhatsApp or Discord.
+Those platforms all expect 1200×630 (a 1.91:1 rectangle), and it's the second
+job that makes the size strict: get it wrong and every share of your post is
+cropped badly, at the exact moment you most want it to look good.
+
+| | |
+| --- | --- |
+| **Dimensions** | 1200 × 630 pixels, exactly |
+| **Format** | `.png` or `.jpg` |
+| **File size** | Under 1 MB. Compress it — [Squoosh](https://squoosh.app) does this in a browser |
+| **Where** | `images/<your-post-slug>/cover.png` |
+
+Two things worth knowing while you design it:
+
+- **Previews render small.** That 1200px card is often shown about 500px wide in
+  a timeline. Anything you'd call "body text" will be unreadable. Use a few
+  large words, not a paragraph.
+- **Keep the edges quiet.** Some clients crop to a square or round the corners.
+  Leave roughly 60px of breathing room around anything that must survive.
 
 ---
 
