@@ -49,13 +49,15 @@ jobs:
 
       - name: Commit generated covers
         run: |
-          if git diff --quiet; then
+          # Stage before checking: generated covers are new files, and an
+          # unstaged `git diff` does not see untracked paths at all.
+          git add posts images
+          if git diff --cached --quiet; then
             echo "No covers were generated; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add posts images
           git commit -m "chore: generate cover images for posts without one [skip ci]"
           git push
 
