@@ -42,7 +42,7 @@ jobs:
       - name: Generate missing covers
         env:
           # Override with a repository variable to point at a preview deploy.
-          OG_ENDPOINT: ${{ vars.OG_ENDPOINT || 'https://wmd-frontend.vercel.app/api/og/blog-cover' }}
+          OG_ENDPOINT: ${{ vars.OG_ENDPOINT || 'https://www.wemakedevs.org/api/og/blog-cover' }}
           # Same value as BLOGS_OG_SECRET in the website's environment.
           BLOGS_OG_SECRET: ${{ secrets.BLOGS_OG_SECRET }}
         run: node .github/scripts/generate-covers.mjs
