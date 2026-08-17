@@ -8,5 +8,15 @@
     "github": "kunal-kushwaha",
     "linkedin": "kunalkushwaha",
     "website": "https://techwithkunal.com"
+  },
+  "sachin-sharma": {
+    "name": "Sachin Sharma",
+    "role": "CMO, WeMakeDevs",
+    "avatar": "images/authors/sachin.webp",
+    "bio": "CMO - @WeMakeDevs | Events, content & campaigns that move developers to action",
+    "x": "sachintwts",
+    "github": "devsachinsharma",
+    "linkedin": "sachin-sharma-648b1b200",
+    "website": "https://www.wemakedevs.org/"
   }
 }
