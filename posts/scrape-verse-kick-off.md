@@ -1,6 +1,6 @@
 ---
 title: "Getting Started Guide For The Bright Data Hackathon"
-description: "Getting Started Guide For The Bright Data Hackathon"
+description: "The Scrape-Verse Hackathon runs until August 23rd with $15,000 in prizes. Here's how to build a self-healing scraper with Bright Data's Scraper Studio, plus project ideas to steal."
 datePublished: 2026-08-17
 author: sachin-sharma
 tags: ["hackathon", "technical"]
