@@ -81,7 +81,13 @@ To discard the proposed fix and try a sharper prompt instead, reject it:
 
 The theme is open-ended so participants can build anything that uses Scraper Studio to turn websites into structured data. 
 
-Here are some project deas, feel free to pick any one of these if you are out ideas:
+<Callout type="tip" title="A repo full of ideas to start from">
+
+There's a companion repo for the hackathon with a collection of project ideas you can pick up and build on: [scraper-studio-scrape-verse-hackathon-august-2026](https://github.com/anil-bd/scraper-studio-scrape-verse-hackathon-august-2026). Worth a browse before you commit to an idea.
+
+</Callout>
+
+Here are some project ideas, feel free to pick any one of these if you are out of ideas:
 ### 1. One-prompt scraper
 Paste one prompt into your coding agent, point it at a site, and get clean JSON back with a bdata scraper create + bdata scraper run flow. 
 
