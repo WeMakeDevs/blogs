@@ -5,6 +5,28 @@ merge to `main` and the post is live in a few minutes. There's no deploy step, a
 
 ---
 
+## Video Tutorials
+
+## How to Add an Author
+
+https://github.com/user-attachments/assets/c94c8ddd-4382-4a48-9645-33560eeb6390
+
+## How to Add a Post
+
+https://github.com/user-attachments/assets/3a10aa11-b0cf-4cce-8d33-5731172add40
+
+## How to Add Images to a Post
+
+https://github.com/user-attachments/assets/6b623063-4e51-428a-b5d0-30df76554d7e
+
+## How to Add a Cover Image to a Post
+
+https://github.com/user-attachments/assets/1b922007-fa87-41dd-a771-13b5f1b7f69d
+
+## Other helpful tips
+
+https://github.com/user-attachments/assets/bfddc7e9-b8df-4e57-83db-a024d8931322
+
 ## Publishing a post
 
 1. Add one Markdown file to `posts/`. The filename is the URL:
