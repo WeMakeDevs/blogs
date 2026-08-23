@@ -35,11 +35,11 @@ Throughout the hackathon, participants built in public, exchanged technical lear
 
 ## Track 1 Winner · Best Use of Open Source: Lethe
 
-![banner](images/hangover-wrap-up-blog/hangover-wrap-up-blog-3.jpg)
+![banner](images/hangover-wrap-up-blog/hangover-wrap-up-blog-3.gif)
 
 Built by [Vinayak Sonthalia](https://x.com/vinncodes_), [Lethe](https://vinayaksonthalia-lethe.hf.space) is an on-call memory for SRE teams. It ingests messy runbooks, builds a knowledge graph and vector index out of plain prose with no schema, and answers on-call questions with grounded, cited answers.
 
-![hero-flip](images/hangover-wrap-up-blog/hangover-wrap-up-blog-4.jpg)
+![hero-flip](images/hangover-wrap-up-blog/hangover-wrap-up-blog-4.gif)
 
 What made Lethe stand out was its ability to keep information up to date. Instead of only remembering old runbooks, it can also forget systems that have been removed, preventing outdated advice during critical incidents. Built on Cognee, it turns unstructured documentation into a searchable knowledge graph and provides clear, source-backed answers, making it a practical assistant for SRE teams handling real-world outages.
 
@@ -49,11 +49,11 @@ What made Lethe stand out was its ability to keep information up to date. Instea
 
 ## Track 2 Winner · Best Use of Cognee Cloud: Classroom Memory
 
-![Screenshot 2026-08-01 at 1.01.44 PM](images/hangover-wrap-up-blog/hangover-wrap-up-blog-5.jpg)
+![Screenshot 2026-08-01 at 1.01.44 PM](images/hangover-wrap-up-blog/hangover-wrap-up-blog-5.png)
 
 Built by [Rajdeep Singh](https://www.linkedin.com/in/rajdeepsingh5/), [Classroom Memory](https://classroom-memory.vercel.app) reimagines how learning platforms support both students and teachers. Instead of only storing quizzes and scores, it gives every student a personalized learning memory that tracks what they already know, what they are struggling with, and what they should learn next. Using Cognee Cloud, the platform builds a memory for each student that evolves as they answer questions and interact with the system.
 
-![Screenshot 2026-08-04 at 1.23.56 PM](images/hangover-wrap-up-blog/hangover-wrap-up-blog-6.jpg)
+![Screenshot 2026-08-04 at 1.23.56 PM](images/hangover-wrap-up-blog/hangover-wrap-up-blog-6.png)
 
 What made Classroom Memory stand out was its teacher-focused intelligence. Rather than simply highlighting weak topics, it reasons over prerequisite relationships to recommend the best concept to teach next. For example, instead of suggesting that a class struggling with recursion should practice recursion again, it recognizes that students first need a stronger understanding of functions. This graph-based approach helps teachers plan lessons more effectively while giving every student a more personalized learning experience.
 
