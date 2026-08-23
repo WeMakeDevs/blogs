@@ -1,2 +1,9 @@
 # Installed by CI (and by anyone running the scripts locally). Not content.
 .github/scripts/node_modules/
+
+# macOS Finder metadata. Never content; gets committed by accident.
+.DS_Store
+
+# Editor swap files, same reason.
+*.swp
+*.swo
