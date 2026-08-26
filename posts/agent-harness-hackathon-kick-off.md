@@ -106,6 +106,8 @@ TrueForge is an **open-source agent harness** that provides the runtime layer fo
 
 It brings together the pieces an agent needs to operate beyond a chat window: **MCP tools, skills, sandboxing, approvals, subagents, context management, and persistent sessions**.
 
+### Want to see what’s possible with TrueForge? 
+Check out the [TrueForge Example Agents](https://github.com/truefoundry/trueforge/tree/examples/agent-cookbook/examples), a collection of ready-to-use agent examples covering security auditing, research, codebase onboarding, CI fixes, database analysis, issue triage, incident investigation, and more. You can use these examples as starting points and adapt them for your own hackathon project.
 
 ## Steps to build your first agent using TrueForge
 
@@ -258,6 +260,49 @@ Instead of treating your PR as an isolated diff, Qodo looks at how the changes f
 ### Step 5. Fix what Qodo finds
 
 This is where Qodo becomes particularly useful for the hackathon. Run your pull request through Qodo, review the findings, and address the issues before merging.
+
+## Qodo Code Review Guide
+To get started quickly with The Agent Harness Hackathon, your first milestone should be simple: get your project into a GitHub PR and run it through Qodo Code Review before merging. 🛠️
+
+Here’s the workflow👇
+
+Step 1: Set up Qodo for your hackathon repository.
+One teammate with GitHub admin access can do this once for the entire team.
+
+Log in to Qodo → Integrations → SaaS → GitHub → Add installation → Connect your GitHub account → Authorize your hackathon repository.
+
+Step 2: Create a branch and open a GitHub pull request.
+Your important code changes should go through a PR so Qodo can review them before you merge.
+
+⚠️ Direct pushes to `main` do not count as reviewed work.
+
+Step 3: Let Qodo review your PR.
+Qodo should automatically start reviewing your PR. If it doesn’t, comment: `/agentic_review`
+
+Fix valid High-severity findings. If a finding is incorrect, intentionally deferred, or expected behavior, dismiss it in the Qodo thread and explain why.
+
+Medium and Low findings can be handled based on your engineering judgment.
+
+Step 4: Push your fixes and get a follow-up review.
+After making changes, push them to the same PR and run: `/agentic_review` again if needed.
+
+You can also use Qodo Agent Skills with Codex or another compatible coding agent to help resolve findings: `npx skills add qodo-ai/qodo-skills/skills`
+
+Then use the `qodo-pr-resolver` skill to review and fix the findings.
+
+Step 5: Add your review proof to the README.
+Create a section called: Qodo Code Review Evidence
+
+This section should include:
+• A link to at least one representative merged PR with meaningful hackathon code
+• 1–2 lines explaining what Qodo found and what you changed or intentionally dismissed
+• The PR history showing the Qodo review and follow-up review
+
+🔎 The public PR link is the required proof.
+
+Screenshots can add context, but they cannot replace the public PR. Judges may also check other important merges to make sure Qodo was part of your development process and not just a one-time step.
+
+💡 If Qodo doesn’t respond, first check that the GitHub App has access to your repository and that the repository is active in Qodo. You can also comment `/agentic_review` on the PR.
 
 ## The prizes
 
