@@ -266,31 +266,31 @@ To get started quickly with The Agent Harness Hackathon, your first milestone sh
 
 Here’s the workflow👇
 
-Step 1: Set up Qodo for your hackathon repository.
+### Step 1: Set up Qodo for your hackathon repository.
 One teammate with GitHub admin access can do this once for the entire team.
 
 Log in to Qodo → Integrations → SaaS → GitHub → Add installation → Connect your GitHub account → Authorize your hackathon repository.
 
-Step 2: Create a branch and open a GitHub pull request.
+### Step 2: Create a branch and open a GitHub pull request.
 Your important code changes should go through a PR so Qodo can review them before you merge.
 
 ⚠️ Direct pushes to `main` do not count as reviewed work.
 
-Step 3: Let Qodo review your PR.
+### Step 3: Let Qodo review your PR.
 Qodo should automatically start reviewing your PR. If it doesn’t, comment: `/agentic_review`
 
 Fix valid High-severity findings. If a finding is incorrect, intentionally deferred, or expected behavior, dismiss it in the Qodo thread and explain why.
 
 Medium and Low findings can be handled based on your engineering judgment.
 
-Step 4: Push your fixes and get a follow-up review.
+### Step 4: Push your fixes and get a follow-up review.
 After making changes, push them to the same PR and run: `/agentic_review` again if needed.
 
 You can also use Qodo Agent Skills with Codex or another compatible coding agent to help resolve findings: `npx skills add qodo-ai/qodo-skills/skills`
 
 Then use the `qodo-pr-resolver` skill to review and fix the findings.
 
-Step 5: Add your review proof to the README.
+### Step 5: Add your review proof to the README.
 Create a section called: Qodo Code Review Evidence
 
 This section should include:
