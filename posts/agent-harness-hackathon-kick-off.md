@@ -93,11 +93,6 @@ Then ask whether an agent could take over a meaningful part of that workflow.
 
 These are only examples and you do not need to build one of them. The important part is the pattern behind them - the agent should be doing work, not simply generating an answer.
 
-
-
-
-
-
 ## TrueForge
 ![trueforge-white](images/agent-harness-hackathon-kick-off/agent-harness-hackathon-kick-off-2.svg)
 
@@ -108,6 +103,20 @@ It brings together the pieces an agent needs to operate beyond a chat window: **
 
 ### Want to see what’s possible with TrueForge? 
 Check out the [TrueForge Example Agents](https://github.com/truefoundry/trueforge/tree/examples/agent-cookbook/examples), a collection of ready-to-use agent examples covering security auditing, research, codebase onboarding, CI fixes, database analysis, issue triage, incident investigation, and more. You can use these examples as starting points and adapt them for your own hackathon project.
+
+## Resources
+1. [AI agent harnesses, explained (with a live demo)](https://www.youtube.com/watch?v=bqgz6gOK5OA)
+
+#### DOCS
+1. [Agent harness docs: what it is, and what it handles for you.](https://trueforge.dev/introduction)
+2. [Connect a model: pointing the harness at a provider](https://trueforge.dev/models#configuring-a-standard-provider)
+3. [Configure MCP servers: the tools your agent can reach](https://trueforge.dev/mcp-servers)
+4. [Star TrueForge on GitHub](https://github.com/truefoundry/trueforge)
+
+#### ONCE IT IS RUNNING FOR REAL USERS
+1. [Route your models through the TrueFoundry AI Gateway](https://www.truefoundry.com/docs/ai-gateway/intro-to-llm-gateway)
+2. [Create specialised MCP servers for your agents](https://www.truefoundry.com/docs/ai-gateway/mcp/virtual-mcp-server)
+
 
 ## Steps to build your first agent using TrueForge
 
@@ -223,6 +232,23 @@ You can then find the agent in the **Agents Library** and start a new session wh
 Qodo is an AI code review platform that reviews your code with context from the **entire repository**, rather than looking at a pull request diff in isolation. It understands repository structure, dependencies, and history to surface bugs, risks, and standards violations.
 
 You can use Qodo across your development workflow, including pull requests, IDEs, CLI, and Git workflows.
+
+## Resources
+
+### DOCS
+1. [Get started with Qodo](https://docs.qodo.ai/get-started)
+2. [What the review agent does to a pull request](https://docs.qodo.ai/code-review)
+
+### TUTORIALS
+1. [Intro to Qodo](https://www.youtube.com/watch?v=6hvtMBV6EsQ)
+2. [Getting started with the Qodo Gen VS Code extension](https://www.youtube.com/watch?v=8eexjKGz45U)
+3. [The review tool, on a real pull request](https://www.youtube.com/watch?v=skzwDOq1lUA)
+
+### MORE TUTORIALS
+1. [The describe tool: pull request descriptions, written for you](https://www.youtube.com/watch?v=sKjQMScZIHg)
+2. [Getting started with the Qodo Command, and building agents with it](https://www.youtube.com/watch?v=PoL6NGS0Xmc)
+3. [Qodo in action: a full walkthrough with best practices](https://www.youtube.com/watch?v=3ULeOidejPM)
+4. [All of Qodo's tutorials](https://www.youtube.com/playlist?list=PLRTpyDOSgbwGvC8n7AACMuLU68qRlIV-s)
 
 ### Let's get started:
 
