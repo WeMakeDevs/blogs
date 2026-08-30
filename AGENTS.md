@@ -43,9 +43,13 @@ tags: ["kubernetes", "devops"]
   `[our CI rewrite](./why-we-rewrote-our-ci-in-go.md)`.
 - **Code blocks** support `ts filename="src/server.ts" showLineNumbers {4-6} /importantThing/`
   — all four parts optional.
-- **Only two components exist:** `<YouTubeEmbed url="..." />` and
-  `<Callout type="note|tip|warning|danger" title="...">…</Callout>`. Any other
-  component name renders as plain text.
+- **Only three components exist:** `<YouTubeEmbed url="..." />`,
+  `<Callout type="note|tip|warning|danger" title="...">…</Callout>` and
+  `<Quote author="..." title="..." avatar="...">…</Quote>`. Any other component
+  name renders as plain text.
+- **`<Quote>` is for a quotation with someone's name on it.** Every attribute is
+  optional; `avatar` is a repo-root path (`images/<slug>/avatar.jpg`) or a full
+  URL. For a quotation with no attribution, plain `>` markdown is still the way.
 - **The MDX gotcha:** posts are processed as MDX, so bare `<` and `{` in prose
   can break parsing. Wrap them in backticks — `` `x < 5` ``, `` `{ "a": 1 }` ``.
 
@@ -89,8 +93,8 @@ locally first rather than waiting on CI.
 - [ ] Every image path resolves and is repo-root-relative
       (`images/<slug>/...`), and the files are actually committed.
 - [ ] Bare `<` and `{` in prose are wrapped in backticks.
-- [ ] Only `<YouTubeEmbed>` and `<Callout>` are used; `Callout` `type` is one of
-      `note`, `tip`, `warning`, `danger`.
+- [ ] Only `<YouTubeEmbed>`, `<Callout>` and `<Quote>` are used; `Callout`
+      `type` is one of `note`, `tip`, `warning`, `danger`.
 - [ ] Cross-post links use relative `./post-name.md` paths and point at files
       that exist.
 - [ ] Cover: either absent (it'll be generated) **or** exactly one

@@ -135,7 +135,7 @@ const importantThing = doWork();
 ```
 ````
 
-**Two components exist:**
+**Three components exist:**
 
 ```markdown
 <YouTubeEmbed url="https://www.youtube.com/watch?v=VIDEO_ID" />
@@ -143,10 +143,21 @@ const importantThing = doWork();
 <Callout type="warning" title="Heads up">
 This drains the node pool. Don't run it on a Friday.
 </Callout>
+
+<Quote author="Kunal Kushwaha" title="Founder, WeMakeDevs" avatar="images/my-post/kunal.jpg">
+The best way to learn is to build in public.
+</Quote>
 ```
 
-`type` is `note`, `tip`, `warning` or `danger`. Any other component name renders
-as plain text.
+A `Callout`'s `type` is `note`, `tip`, `warning` or `danger`. Any other component
+name renders as plain text.
+
+`Quote` is for a quotation you want to put someone's name to. Every attribute is
+optional, so a quote with no one attached still renders, and an author with no
+`avatar` gets their initial instead of a broken image. `avatar` takes a
+repo-root path like the images above, or a full URL. A one-liner can skip the
+children and go in a `quote="..."` attribute instead. For a quotation that
+doesn't need a name on it, plain `>` markdown is still the right thing.
 
 ---
 
@@ -157,8 +168,7 @@ them in backticks — `` `x < 5` ``, `` `{ "a": 1 }` ``. This is the only rule
 here that isn't standard Markdown.
 
 If a post does trip over it, the site publishes anyway with those characters
-escaped — you just lose any `<Callout>` or `<YouTubeEmbed>` in that post until
-it's fixed.
+escaped — you just lose any components in that post until it's fixed.
 
 ---
 
