@@ -15,7 +15,7 @@ The **AWS Bharat Builds Tour** is a hackathon tour running September to December
 And yes, there's **₹1 crore in prizes** across the tour, plus fast-tracked hiring conversations for internship and full-time roles at Amazon for the top projects. The full rules are [here](https://www.wemakedevs.org/aws/rules).
 
 <Callout type="tip" title="Registration is open">
-One signup covers the whole tour: [wemakedevs.org/aws](https://www.wemakedevs.org/aws). You'll need your AWS Builder Center profile alias link to register, so [create that first](https://bit.ly/abc-login) — it takes two minutes.
+One signup covers the whole tour: [wemakedevs.org/aws](https://www.wemakedevs.org/aws). You'll need your AWS Builder Center profile alias link to register, so [create that first](https://bit.ly/abc-login); it takes two minutes.
 </Callout>
 
 But before we talk about any of that, let's talk about you.
@@ -44,7 +44,7 @@ So whatever you build here, you're not learning a niche skill. You're learning t
 
 ## Working with a hyperscaler shouldn't be complicated for a student
 
-AWS runs a huge share of the world's cloud. As a student, that can feel like something you'll get access to "later" — after the degree, after the job, after someone gives you permission.
+AWS runs a huge share of the world's cloud. As a student, that can feel like something you'll get access to "later", after the degree, after the job, after someone gives you permission.
 
 We think that's backwards. So on this tour:
 
@@ -56,7 +56,7 @@ We think that's backwards. So on this tour:
 
 **You leave with people, not just a project.** A room full of builders from your city, mentors who've seen your work, and a network across six cities of people who were there too. Ask anyone who's been in this industry a while: the network is the career.
 
-**You get proof, not just experience.** Every participant walks away with a certificate to show for it — on LinkedIn, in interviews, wherever you need to prove you did the work. And the standout projects from each city get showcased in the official AWS community, in front of the people building this industry.
+**You get proof, not just experience.** Every participant walks away with a certificate to show for it, on LinkedIn, in interviews, wherever you need to prove you did the work. And the standout projects from each city get showcased in the official AWS community, in front of the people building this industry.
 
 **And yes, it's genuinely fun.** Swag, food, late-night energy, a room full of people as into this as you are. Hackathons hit different when you're building something real with people who get it.
 
@@ -84,7 +84,7 @@ Everything on this tour runs through the [AWS Builder Center](https://bit.ly/abc
 After you sign up, [verify your university student status](https://bit.ly/abc-verify) to unlock extra rewards as you earn badges: a year of Skill Builder premium access, up to $30 in additional AWS credits, and a foundational AWS Certification voucher.
 </Callout>
 
-Register once at [wemakedevs.org/aws](https://www.wemakedevs.org/aws), create your Builder ID, and all of this is yours from day one — whether you ever attend in person or not.
+Register once at [wemakedevs.org/aws](https://www.wemakedevs.org/aws), create your Builder ID, and all of this is yours from day one, whether you ever attend in person or not.
 
 ## The first hackathon: First Commit
 
@@ -129,9 +129,9 @@ Nobody at these events was born knowing this stuff. Every mentor who'll support 
 This is that project. Come find out what you can build. See you there.
 
 <Callout type="tip" title="Register for the tour">
-One signup covers all six events: [wemakedevs.org/aws](https://www.wemakedevs.org/aws). First Commit runs September 17 to 20 — online from anywhere in India, and in person in Bengaluru.
+One signup covers all six events: [wemakedevs.org/aws](https://www.wemakedevs.org/aws). First Commit runs September 17 to 20, online from anywhere in India, and in person in Bengaluru.
 </Callout>
 
 ---
 
-*The AWS Bharat Builds Tour is a hybrid hackathon tour organised by WeMakeDevs in collaboration with AWS, built around the AWS Builder Center. A student-only hackathon tour, open to students across India. Register at [wemakedevs.org/aws](https://www.wemakedevs.org/aws).*
+*The AWS Bharat Builds Tour is a hybrid hackathon tour organised by WeMakeDevs in collaboration with AWS, built around the AWS Builder Center. A student-only hackathon tour, open to students across India.*
