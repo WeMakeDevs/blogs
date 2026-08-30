@@ -1,16 +1,16 @@
 ---
-title: "Announcing the AWS Bharat Builds Tour"
+title: "Announcing the Bharat Builds Tour"
 description: "A six-city hybrid hackathon tour running September to December 2026, with ₹1 crore in prizes. Learn cloud and AI by building with AWS experts, online from anywhere in India or in person in your city."
 datePublished: 2026-08-31
 author: kunal-kushwaha
 tags: ["hackathon", "aws", "wemakedevs"]
 ---
 
-![AWS Bharat Builds Tour](images/bharat-builds-tour/bharat-builds-tour-banner.png)
+![Bharat Builds Tour](images/bharat-builds-tour/bharat-builds-tour-banner.png)
 
 We've been building this community for years, and today we're announcing the biggest thing we've done yet.
 
-The **AWS Bharat Builds Tour** is a hackathon tour running September to December 2026, in collaboration with AWS. It's a season of building alongside AWS mentors, learning tools you'll actually use, and meeting builders from across the country. Six cities host the in-person weekends, but you don't need to be in any of them: every event is hybrid, and online participation is open to students across India. Same problem statements, same mentors, same judging, wherever you're building from.
+The **Bharat Builds Tour** is a hackathon tour running September to December 2026, in collaboration with AWS. It's a season of building alongside AWS mentors, learning tools you'll actually use, and meeting builders from across the country. Six cities host the in-person weekends, but you don't need to be in any of them: every event is hybrid, and online participation is open to students across India. Same problem statements, same mentors, same judging, wherever you're building from.
 
 And yes, there's **₹1 crore in prizes** across the tour, plus fast-tracked hiring conversations for internship and full-time roles at Amazon for the top projects. The full rules are [here](https://www.wemakedevs.org/aws/rules).
 
@@ -134,4 +134,4 @@ One signup covers all six events: [wemakedevs.org/aws](https://www.wemakedevs.or
 
 ---
 
-*The AWS Bharat Builds Tour is a hybrid hackathon tour organised by WeMakeDevs in collaboration with AWS, built around the AWS Builder Center. A student-only hackathon tour, open to students across India.*
+*The Bharat Builds Tour is a hybrid hackathon tour organised by WeMakeDevs in collaboration with AWS, built around the AWS Builder Center. A student-only hackathon tour, open to students across India.*
