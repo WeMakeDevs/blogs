@@ -1,6 +1,6 @@
 ---
 title: "Announcing the Bharat Builds Tour"
-description: "A six-city hybrid hackathon tour running September to December 2026, with ₹1 crore in prizes. Learn cloud and AI by building with AWS experts, online from anywhere in India or in person in your city."
+description: "A six-city hybrid hackathon tour running September to December 2026, with ₹1 crore in prizes and fast track hiring at Amazon for top performers. Learn cloud and AI by building with AWS experts, online from anywhere in India or in person in your city."
 datePublished: 2026-08-31
 author: kunal-kushwaha
 tags: ["hackathon", "aws", "wemakedevs"]
