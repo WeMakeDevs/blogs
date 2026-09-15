@@ -40,10 +40,7 @@ The last question is where most ideas fall apart. If you cannot describe what th
 
 Judges look at whether one thing works from beginning to end, not at how many things were started.
 
-```mermaid
-flowchart LR
-    T["<b>Trigger</b><br/>the moment the<br/>problem shows up"] --> I["<b>Input</b><br/>what the user<br/>hands over"] --> P["<b>Processing</b><br/>what the system<br/>does with it"] --> R["<b>Result</b><br/>what the user<br/>sees or receives"]
-```
+![Flowchart3](images/how-to-plan-a-cloud-project/2.png)
 
 Anything that does not sit on that line is optional for the next four days. Login screens, admin dashboards, settings pages and onboarding can be described in the demo instead of being built. One flow that works will always read better than six screens that do not.
 
@@ -72,10 +69,7 @@ First Commit hackathon gives you two ways to build:
 
 The usual mistake is to finish the frontend, then the API, then the database, and discover on the last evening that none of it connects. Get a thin version of the whole flow running first, with sample data if that is what it takes, and then improve one step at a time.
 
-```mermaid
-flowchart LR
-    D1["<b>Day 1</b><br/>Problem, user,<br/>one flow, services"] --> D2["<b>Day 2</b><br/>Whole flow runs<br/>on fake data"] --> D3["<b>Day 3</b><br/>Real data, one<br/>failure case, UI"] --> D4["<b>Day 4</b><br/>Freeze, rehearse,<br/>record"]
-```
+![Flowchart3](images/how-to-plan-a-cloud-project/3.png)
 
 Treat the fourth day as a freeze rather than a build day. Anything not working by Sunday morning is something you describe in the demo, not something you attempt.
 
@@ -89,8 +83,8 @@ Record the screen instead of talking over slides, show real output rather than d
 
 ## Put it Into Practice at First Commit
 
-![Screenshot 2026-09-15 at 4.23.21 PM](https://hackmd.io/_uploads/ryIpms8KMg.jpg)
 
+![Screenshot 2026-09-15 at 4.23.21 PM](images/how-to-plan-a-cloud-project/4.jpg)
 Registration is free and open to university students across India aged eighteen and above, alone or in teams of up to four. The problem statement is open, which is to build something that solves a real problem, whether it is one you deal with yourself, one the people around you face every day, or a clunky process nobody has bothered to fix.
 
 This stop carries ₹20 worth in cash, credits and gadgets.
