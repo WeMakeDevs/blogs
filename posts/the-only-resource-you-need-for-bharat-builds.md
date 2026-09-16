@@ -2,7 +2,7 @@
 title: "The Only Resource You Need for Bharat Builds"
 description: "Hundreds of workshops, eight-hour sandboxes, $100 in hackathon credits and up to $579 in free training and certification, all behind one AWS Builder Center profile."
 datePublished: 2026-09-16
-author: sachin-sharma
+author: aayush-sharma
 tags: ["hackathon", "wemakedevs", "aws"]
 ---
 
