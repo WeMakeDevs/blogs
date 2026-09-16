@@ -3,7 +3,7 @@ title: "From First Idea to Working Demo: How to Plan a Cloud Project"
 description: "Knowing what a cloud service does is a different skill from knowing which services your own project needs. Courses, documentation and tutorials cover the first one thoroughly, but very little covers the second, which is why a student who can confidently explain what Lambda and DynamoDB are will still stall when the task is to plan a project from scratch."
 datePublished: 2026-09-15
 author: sachin-sharma
-tags: ["hackathon", "wemakedevs"]
+tags: ["hackathon", "wemakedevs", "aws"]
 ---
 
 
