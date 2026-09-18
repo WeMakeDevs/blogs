@@ -32,7 +32,7 @@ It returns one of three deliberately modest outcomes.
 
 ## Architecture & Prerequisites
 
-![Screenshot 2026-09-18 at 1.03.00 AM](images/how-to-build-a-real-data-ai-project-on-the-aws-open-source-stack/2.png)
+![Screenshot 2026-09-18 at 1.03.00 AM](images/how-to-build-a-real-data-ai-project-on-the-aws-open-source-stack/2.jpg)
 
 | Requirement | Why |
 | --- | --- |
