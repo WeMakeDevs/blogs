@@ -17,7 +17,7 @@ Five techniques do most of the work, and each one transfers to whatever you deci
 
 ## What the Demo Application is About?
 
-![image](https://hackmd.io/_uploads/S1U126ttzl.png)
+![image](images/how-to-build-a-real-data-ai-project-on-the-aws-open-source-stack/1.png)
 
 
 SchemeProof evaluates **27 cited conditions across 8 programs**: the National Means-cum-Merit Scholarship Scheme, PM-Vidyalaxmi interest subvention, PMAY-U 2.0, the Indira Gandhi old age, widow and disability pensions, the National Family Benefit Scheme, and e-Shram registration.
@@ -32,7 +32,7 @@ It returns one of three deliberately modest outcomes.
 
 ## Architecture & Prerequisites
 
-![Screenshot 2026-09-18 at 1.03.00 AM](https://hackmd.io/_uploads/rJ4jxpFFMx.jpg)
+![Screenshot 2026-09-18 at 1.03.00 AM](images/how-to-build-a-real-data-ai-project-on-the-aws-open-source-stack/2.png)
 
 | Requirement | Why |
 | --- | --- |
@@ -147,7 +147,7 @@ Running this against a Class VIII student whose parents earn ₹2.4 lakh, with s
 
 Three things are visible in that output and none of them required a model. The condition that was checked shows the supplied value against the rule value. The two that could not be checked are named rather than assumed. Every line carries the page it came from.
 
-![image](https://hackmd.io/_uploads/ByA8hatYMx.png)
+![image2](images/how-to-build-a-real-data-ai-project-on-the-aws-open-source-stack/3.png)
 
 ## Part 2: Documents Are Real With a Hash
 
@@ -166,7 +166,7 @@ OpenSearch contains 131 searchable PDF pages / HTML sections.
 
 That one step makes three separate assertions. The list of stored objects matches the list of sources the project is configured to use. Every stored object still hashes to the digest recorded when it was downloaded. And every rule quote genuinely appears in the indexed page it cites, carrying the same source hash.
 
-![image](https://hackmd.io/_uploads/SkBjhpYYzl.png)
+![image3](images/how-to-build-a-real-data-ai-project-on-the-aws-open-source-stack/4.png)
 
 Two design choices here are worth copying. The download fails closed, so an HTTP error, a PDF that turns out not to be a PDF, or a transfer that stops halfway will halt the process rather than quietly leave you with a thinner set of documents. And those counts are allowed to change, because a government page can be edited at any time. A verification number that moves is evidence you fetched something live, while a number that never moves usually means the data was bundled.
 
