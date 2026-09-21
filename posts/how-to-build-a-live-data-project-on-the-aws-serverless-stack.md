@@ -1,10 +1,12 @@
 ---
 title: "How to Build a Live-Data Project on the AWS Serverless Stack"
-description: "The Ship It track at First Commit hackathon asks for something running on AWS with a URL a judge can open. The managed services behind that URL are [Lambda](https://aws.amazon.com/lambda/), [API Gateway](https://aws.amazon.com/api-gateway/), [DynamoDB](https://aws.amazon.com/dynamodb/), [S3](https://aws.amazon.com/s3/), [Amplify Hosting](https://aws.amazon.com/amplify/hosting/), [App Runner](https://aws.amazon.com/apprunner/), [Cognito](https://aws.amazon.com/cognito/), [EventBridge](https://aws.amazon.com/eventbridge/) and [Step Functions](https://aws.amazon.com/step-functions/). None of them needs a server you keep alive, and a weekend is enough time to wire a real product out of them."
+description: "The Ship It track at First Commit hackathon asks for something running on AWS with a URL a judge can open."
 datePublished: 2026-09-18
 author: aayush-sharma
 tags: ["hackathon", "wemakedevs", "aws"]
 ---
+
+The managed services behind that URL are [Lambda](https://aws.amazon.com/lambda/), [API Gateway](https://aws.amazon.com/api-gateway/), [DynamoDB](https://aws.amazon.com/dynamodb/), [S3](https://aws.amazon.com/s3/), [Amplify Hosting](https://aws.amazon.com/amplify/hosting/), [App Runner](https://aws.amazon.com/apprunner/), [Cognito](https://aws.amazon.com/cognito/), [EventBridge](https://aws.amazon.com/eventbridge/) and [Step Functions](https://aws.amazon.com/step-functions/). None of them needs a server you keep alive, and a weekend is enough time to wire a real product out of them.
 
 This article works through one complete project built on that stack. CitationPulse takes an academic PDF, pulls every DOI identifier out of its reference list, and checks each one against live Crossref and OpenAlex metadata to find corrections, retractions, broken identifiers and open-access copies. It is deployed with AWS CDK and it lives at a public Amplify URL.
 
