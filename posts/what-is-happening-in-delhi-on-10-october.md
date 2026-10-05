@@ -1,8 +1,8 @@
 ---
 title: "Bharat Builds Tour: What is Happening in Delhi on 10 October"
 description: "Twelve hours in one room on the Saturday of Environmental Hacks."
-datePublished: 2026-08-31
-author: sachin-sharma
+datePublished: 2026-10-06
+author: aayush-sharma
 tags: ["hackathon", "aws", "wemakedevs"]
 ---
 
