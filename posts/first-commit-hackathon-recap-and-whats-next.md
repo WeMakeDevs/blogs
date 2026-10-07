@@ -33,7 +33,7 @@ The rest of the day was building, with mentors on the floor. The thing you notic
 ![image](images/first-commit-hackathon-recap-and-whats-next/4.webp)
 
 ## The winners
-##First prize and Ship It track: Suraksha
+## First prize and Ship It track: Suraksha
 
 Team StarBugs won ₹2,00,000 in cash and $3,000 in AWS credits for Suraksha, an agentic companion for an aging parent. It is the only one of the three winners built for somebody who is not the user. The person operating the software and the person it looks after are different people, and almost every design decision gets harder once that is true, because the one who needs the help is the one least likely to be holding the phone.
 
