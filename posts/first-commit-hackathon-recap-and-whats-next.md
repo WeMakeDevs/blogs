@@ -1,7 +1,7 @@
 ---
 title: "First Commit Hackathon Recap and What's Next"
 description: "What students across India built, the projects that won, and how you can join the next stop of the tour powered by AWS Builder Center."
-datePublished: 2026-08-06
+datePublished: 2026-10-07
 author: kunal-kushwaha
 tags: ["hackathon", "aws", "wemakedevs"]
 ---
