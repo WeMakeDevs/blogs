@@ -36,7 +36,9 @@ The rest of the day was building, with mentors on the floor. The thing you notic
 ##First prize and Ship It track: Suraksha
 
 Team StarBugs won ₹2,00,000 in cash and $3,000 in AWS credits for Suraksha, an agentic companion for an aging parent. It is the only one of the three winners built for somebody who is not the user. The person operating the software and the person it looks after are different people, and almost every design decision gets harder once that is true, because the one who needs the help is the one least likely to be holding the phone.
-[![Suraksha - First Commit Hackathon Submission](https://img.youtube.com/vi/XVr34XeXvlE/maxresdefault.jpg)](https://youtu.be/XVr34XeXvlE)
+
+[![Suraksha - First Commit Hackathon Submission](https://i.ytimg.com/vi/XVr34XeXvlE/hqdefault.jpg)](https://youtu.be/XVr34XeXvlE)
+
 ## Second prize and Build It track: Beacon Night Shift
 
 Built solo over the weekend under the team name CoffeAndCode, Beacon won ₹1,50,000 and $2,000 in AWS credits. It is an on-call agent for the 3 AM page. Payments are failing, and you need to know whether it is real, what changed, what to do about it, and whether you can go back to sleep. Beacon reads the logs on Amazon Bedrock, finds the change that caused the outage, proposes one fix from an allowlist and dry-runs it, then waits for you to approve it out loud. Say yes to it handling that fault by itself next time, and the second time it fires nobody gets woken up.
