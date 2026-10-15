@@ -2,7 +2,7 @@
 title: "How to Build an Agent That Reasons Over a Graph"
 description: "The usual way to give an agent context is a retrieval step. Embed the question, pull back the closest few records or chunks, hand them to the model as a block of text. That works for as long as the answer lives inside one of those records."
 datePublished: 2026-10-15
-author: sachin-sharma
+author: aayush-sharma
 tags: ["hackathon", "falkordb", "wemakedevs"]
 ---
 
