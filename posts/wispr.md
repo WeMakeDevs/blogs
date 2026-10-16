@@ -34,6 +34,8 @@ Wispr Flow turns your voice into text in the apps you already use. You hold a ke
 
 If you write code, that means giving your AI tools the full context. You can dictate requirements, constraints and follow-ups straight into your coding tools, without stopping to type or copy text between apps. If you don't write code, it means less effort getting your thoughts onto the page, whether that's documentation, emails or team updates.
 
+**[Get 1 month of Wispr Flow Pro free](https://wisprflow.ai/?promo_code=WEMAKEDEVS&utm_source=wemakedevs&utm_medium=partner&utm_campaign=wemakedevs&dub_id=1oU35MQWSE7nktLN)**, and sign up with the same email you register for No Hands with.
+
 ## Two tracks to build in
 
 **Builders, for developers.** Build a working software product that solves a problem in your own work. It could be a standup summary bot, a release notes writer or a code review assistant.
