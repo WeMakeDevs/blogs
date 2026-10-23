@@ -23,7 +23,7 @@ That is No Hands: The Wispr Challenge. We're running it with Wispr Flow, it's on
 | **Dates** | Friday 16 October to Friday 30 October 2026 |
 | **Where** | Online |
 | **Who** | Anyone in India: developers, working professionals, founders and students |
-| **Teams** | Solo, or a team of up to four |
+| **Teams** | Solo |
 | **Cost** | Free, with 1 month of Wispr Flow Pro included |
 | **Prizes** | ₹1,00,000 in cash for each of three winners, plus weekly and monthly prizes |
 | **Deadline** | Submit by Friday 30 October, 11:59 pm IST |
