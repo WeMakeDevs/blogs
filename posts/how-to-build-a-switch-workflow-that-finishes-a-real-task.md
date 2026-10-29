@@ -19,22 +19,22 @@ The trouble is where all of that lands, because it happens inside a terminal tha
 
 None of that is a model problem, and no amount of better prompting will fix it. The agent did the work correctly and then had nowhere to put it, which is how teams end up with one person quietly acting as a relay between the agents and everyone who needs to trust what they produced.
 
-![image](images/how-to-build-a-switch-workflow-that-finishes-a-real-task.md/1.png)
+![image](images/how-to-build-a-switch-workflow-that-finishes-a-real-task/1.png)
 
 [Switch](https://devtoolsacademy.link/wemakedevs) is open source infrastructure built for that gap, and it works by putting agents into the chat your team is already sitting in, so a channel in Slack, Teams, Discord or Mattermost becomes a room that people and agents share. 
 
 An agent that joins a room gets an identity of its own, a set of instructions every agent in that room reads on arrival, and a conversation log that outlives any single session, so the reasoning behind a decision is still there the next time the same question comes around. It brings no agents and no models with it, and it does not replace your chat app, because the whole point is to connect the two you already have.
-![image](images/how-to-build-a-switch-workflow-that-finishes-a-real-task.md/2.jpg)
+![image](images/how-to-build-a-switch-workflow-that-finishes-a-real-task/2.jpg)
 
 That is exactly what the [Flip the Switch Hackathon](https://www.wemakedevs.org/hackathons/switch) is asking you to build on, running from 4 to 7 November, online, solo or in teams of up to four, with $10,000 across three tracks and two side tracks. The brief is to take an agent you already use, connect it with Switch, and build a workflow where it does real work alongside your teammates rather than in a window only you can see.
 
 The part the documentation leaves out is how to design that workflow so it survives more than one agent and more than one person, and how to prove it works before a judge tries to run it. In this article we have a demo named Upgrade Desk which is our worked example of both: a two-agent room that carries a dependency release from "there is a new version" to a reviewed pull request, with a person deciding in the middle. We built it and ran it against a real repository, so every screenshot here and the agent output quoted later came out of that run, including the upgrade it genuinely broke.
 
-![image](images/how-to-build-a-switch-workflow-that-finishes-a-real-task.md/3.png)
+![image](images/how-to-build-a-switch-workflow-that-finishes-a-real-task/3.png)
 
 ## Three Tracks, and Two Side Tracks on Top
 
-![image](images/how-to-build-a-switch-workflow-that-finishes-a-real-task.md/4.jpg)
+![image](images/how-to-build-a-switch-workflow-that-finishes-a-real-task/4.jpg)
 
 1. **Best Business Workflow ($2,000)** - for the most practical workflow where people and agents get work done together. It is explicitly open to non-technical participants, and any combination of people, agents and rooms counts.
 2. **Best Personal or Creative Workflow ($2,000)** - is the same idea pointed at everyday tasks, personal projects or creative work.
@@ -91,9 +91,9 @@ This is the thing that will cost you an evening, and it is worth understanding b
 Switch separates three things that feel like one. The **server** holds the agent registry, where every agent is registered once. An **agent** is invited into a room and stays a member whether or not anybody is running it. A **session** is a running copy of that agent on somebody's machine, and the session is what actually reads your message and replies.
 
 So an agent sitting quietly in a room looks exactly the same as one that is listening. Being a member means nothing is running. These two screenshots are the same room with the same two members, a minute apart:
-![Both agents in the room with no session running](images/how-to-build-a-switch-workflow-that-finishes-a-real-task.md/5.png)
+![Both agents in the room with no session running](images/how-to-build-a-switch-workflow-that-finishes-a-real-task/5.png)
 
-![The same two agents with live sessions](images/how-to-build-a-switch-workflow-that-finishes-a-real-task.md/6.png)
+![The same two agents with live sessions](images/how-to-build-a-switch-workflow-that-finishes-a-real-task/6.png)
 
 Nothing about the membership changed between them. What changed is that a session was started on the machine each agent runs on, and the grey dot went green. This is the whole reason `watch` belongs on a host rather than your laptop - an agent on a closed laptop has no session and answers nothing, while still sitting in the room looking like a teammate.
 
@@ -127,7 +127,7 @@ room:
 
 Those instructions live on the room itself, not in anybody's prompt, and every agent reads them on joining:
 
-![The room instructions as Switch stores them](images/how-to-build-a-switch-workflow-that-finishes-a-real-task.md/7.png)
+![The room instructions as Switch stores them](images/how-to-build-a-switch-workflow-that-finishes-a-real-task/7.png)
 
 Read that last rule again, because it is the one that turns a demo into something a team would keep. The room remembers the decision, so the work is not repeated.
 
@@ -153,7 +153,7 @@ Leave `auto_approve` off for any agent that touches a repository. It is also a g
 
 The second mechanism is your own workflow gate, which is the approver role plus the room instruction that no pull request happens without an explicit approval:
 
-![The approver role, marked exclusive](images/how-to-build-a-switch-workflow-that-finishes-a-real-task.md/8.png)
+![The approver role, marked exclusive](images/how-to-build-a-switch-workflow-that-finishes-a-real-task/8.png)
 
 
 Switch will not enforce the convention for you. What it does enforce is the `exclusive` flag - at most one live holder at a time, so two people cannot both believe they hold the pen. The rest works because the agents read the same room instructions every time they join.
@@ -177,7 +177,7 @@ Every team hits this, usually in the last few hours. You mention an agent, nothi
 
 Switch almost always tells you exactly what is wrong, and the reply is not the same reply every time. Each wording points at a different problem.
 
-![When an agent goes quiet](images/how-to-build-a-switch-workflow-that-finishes-a-real-task.md/9.png)
+![When an agent goes quiet](images/how-to-build-a-switch-workflow-that-finishes-a-real-task/9.png)
 
 Three checks before anything else:
 
@@ -283,7 +283,7 @@ What the shape above leaves out is the instruction text, which in a real file ru
 
 ## Validating It Before a Judge Does
 
-![image](images/how-to-build-a-switch-workflow-that-finishes-a-real-task.md/10.png)
+![image](images/how-to-build-a-switch-workflow-that-finishes-a-real-task/10.png)
 
 Most projects skip this, and it is the cheapest mark on the table. Switch checks your work in three places, and you can run all three yourself.
 
