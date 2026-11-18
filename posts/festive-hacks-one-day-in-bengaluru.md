@@ -58,6 +58,8 @@ Check-in opens at 8 AM at BIEC, so bring your laptop and your charger. Hacking s
 
 Hitesh Choudhary and Saiyam Pathak are judging. Around you, over the two days, the conference has Thomas Dohmke, Wolfgang Platz, Hadar Geva, Jack Fitzsimons, Christian Heilmann and Amol Sharma on stage, along with more than a hundred other speakers and three thousand people. Your pass covers the 26th as well, and the hallway on day two is worth the trip on its own.
 
+![Hitesh Choudhary and Saiyam Pathak are judging Festive Hacks](images/festive-hacks-one-day-in-bengaluru/judges.png)
+
 ## If you are not hacking, come anyway
 
 Some of you will read this, like the sound of the conference, and know you are not going to build anything on the 25th. Use the code **WEMAKEDEVS999** at [tickets.sarvarth.com](https://tickets.sarvarth.com) and a two-day pass is ₹999 instead of ₹10,000. There are only so many at that price. Same hall, same speakers, and you will be in the room when the Berlin trip gets handed over.
