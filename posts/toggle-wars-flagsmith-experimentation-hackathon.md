@@ -42,8 +42,6 @@ Pick the one your idea fits. Each track has one winner.
 
 There is also a bonus that costs you nothing. One person who stars Flagsmith on GitHub is picked at random and wins a pair of AirPods, so go and star it now rather than on the last day.
 
-![The Toggle Wars poster: A control versus B challenger, 26 to 29 November, $5,000 in prizes](images/toggle-wars-flagsmith-experimentation-hackathon/poster.png)
-
 ## What the judges look at
 
 Every project gets scored on the same four things, whichever track it is in.
