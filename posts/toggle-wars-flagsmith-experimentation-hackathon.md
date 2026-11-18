@@ -28,6 +28,10 @@ Flagsmith is open source. You can start free on Flagsmith Cloud, or run the whol
 
 Experimentation runs on top of the flags you already have. It takes the events your app sends and uses a Bayesian stats engine to work out the winner, which is why you get a win probability rather than a yes or no. You can use the managed data warehouse or bring your own ClickHouse or Databricks.
 
+This is what that looks like once a test is live. The flag, the metric, the traffic split and the win probability all sit on one screen, and the rollout stays on the same flag you shipped behind.
+
+![A running experiment in Flagsmith with its flag, metric, traffic split and win probability](images/toggle-wars-flagsmith-experimentation-hackathon/flagsmith-experiment.png)
+
 If you want the whole loop in front of you before the 26th, we wrote it up with a real app and real traffic: [how to run a real A/B test with Flagsmith Experimentation](https://www.wemakedevs.org/blogs/how-to-run-a-real-ab-test-with-flagsmith-experimentation).
 
 There is also a setup prompt on the hackathon page for coding agents. Paste it into Claude Code or whatever you use, and it creates the flag, the metric and the experiment, and adds the code to your app once you approve it. You are still expected to understand and explain what you shipped, so read what it did before you build on top of it. The Flagsmith team is in their Discord through the four days if you get stuck.
@@ -53,6 +57,10 @@ Every project gets scored on the same four things, whichever track it is in.
 They look at your **use of Flagsmith**, meaning whether it is a core part of the project and whether the flags and experiments are doing real work rather than sitting there for show. They look at **impact**, which is whether a developer or a team would actually use this. They look at **creativity**, so either a new idea or a familiar one taken somewhere new. And they look at the **demo video**, which has to show the problem, what you built, and where Flagsmith fits.
 
 The demo video is the one people leave until the last hour and then regret. It is a quarter of the scorecard and it is the only part of your project most judges will see in full.
+
+On explaining your results, one thing worth knowing before Sunday. A win probability is not a verdict. In the test below the dashboard reads 84% and a +14.9% lift, but the credible interval still runs from -14.1% to +44.0%, which crosses zero. That is the model telling you it has not seen enough traffic to call it. Saying that out loud in your demo is a stronger answer than reading the big green number off the screen.
+
+![Exposures, occurrence rate, credible interval and win probability for each variation](images/toggle-wars-flagsmith-experimentation-hackathon/flagsmith-analysis.png)
 
 ## What to do between now and the 26th
 
