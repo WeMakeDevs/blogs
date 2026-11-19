@@ -1,7 +1,7 @@
 ---
 title: "Toggle Wars: Four Days to Find Out Which Version Wins"
 description: "Toggle Wars runs online from 26 to 29 November. Build something with Flagsmith, run a real A/B test on it with Experimentation, and take one of three track prizes."
-datePublished: 2026-11-18
+datePublished: 2026-11-19
 author: aayush-sharma
 tags: ["hackathon", "flagsmith", "wemakedevs"]
 ---
@@ -10,7 +10,7 @@ Most changes ship without a control group. The feature goes out to everyone at o
 
 Feature flags fix the first half of that. The change ships turned off, you turn it on for the people you choose, and you turn it back off without a deploy. Experimentation fixes the second half. The same flag holds both versions, you name the event that counts as success, and the result tells you which version is ahead and how sure you can be about it.
 
-Toggle Wars is four days to run that loop end to end on something you built yourself. It is online, free, and open to anyone, solo or in a team of any size. Hacking starts at 8 AM IST on Wednesday 26 November and submissions close at 8 PM IST on Sunday 29 November. More than a thousand people have registered already, and you join them on the [Toggle Wars page](https://www.wemakedevs.org/hackathons/flagsmith).
+Toggle Wars is four days to run that loop end to end on something you built yourself. It is online, free, and open to anyone, solo or in a team of any size. Hacking starts at 8 AM IST on Thursday 26 November and submissions close at 8 PM IST on Sunday 29 November. More than a thousand people have registered already, and you join them on the [Toggle Wars page](https://www.wemakedevs.org/hackathons/flagsmith).
 
 ## How a round is played
 
@@ -54,12 +54,12 @@ The demo video is the one people leave until the last hour and then regret. It i
 
 Today, register on the [Toggle Wars page](https://www.wemakedevs.org/hackathons/flagsmith) and star Flagsmith on GitHub. Both take about two minutes, and the star puts you in the AirPods draw whether or not you end up submitting.
 
-Tomorrow and Friday, create a Flagsmith account, drop an SDK into something you already have running, and put one flag around something trivial. The goal is just to see a value change in your app from the dashboard. Once you have seen that, the rest of it stops feeling abstract.
+Tomorrow, create a Flagsmith account, drop an SDK into something you already have running, and put one flag around something trivial. The goal is just to see a value change in your app from the dashboard. Once you have seen that, the rest of it stops feeling abstract.
 
 Over the weekend, run the whole loop once on a throwaway app: multivariate flag, a metric, a traffic split, and enough fake traffic to watch the win probability move. Four days is plenty to build something good, and it is a lot less plenty if day one goes on installing SDKs.
 
-Monday and Tuesday, pick your track and write down the question you want answered. Narrow is better. "Does a shorter form get more sign-ups" is a question you can settle by Sunday. "Does our onboarding work" is not.
+Early next week, pick your track and write down the question you want answered. Narrow is better. "Does a shorter form get more sign-ups" is a question you can settle by Sunday. "Does our onboarding work" is not.
 
-Then on Wednesday the 26th at 8 AM IST you start, and you have Thursday and Friday to build and instrument it properly. Record the demo video on Saturday rather than Sunday, and submit before 8 PM IST on the 29th with time to spare.
+Then on Thursday the 26th at 8 AM IST you start, and you have Friday and Saturday to build and instrument it properly. Record the demo video on Saturday rather than Sunday, and submit before 8 PM IST on the 29th with time to spare.
 
 Register at **[wemakedevs.org/hackathons/flagsmith](https://www.wemakedevs.org/hackathons/flagsmith)**, and we will see you on the 26th.
