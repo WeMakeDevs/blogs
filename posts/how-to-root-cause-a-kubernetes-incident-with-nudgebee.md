@@ -2,7 +2,7 @@
 title: How to Root-Cause a Kubernetes Incident With NudgeBee
 description: A real failure on a real cluster. The agent read the evidence, told me my premise was wrong, and was right.
 datePublished: 2026-11-23
-author: aayush-sharma
+author: kunal-kushwaha
 tags: [technical, nudgebee, kubernetes, hackathon]
 ---
 
