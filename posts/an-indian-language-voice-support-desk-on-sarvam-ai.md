@@ -6,7 +6,7 @@ author: aayush-sharma
 tags: [technical, sarvam, ai, hackathon]
 ---
 
-Most support software in India assumes the customer will type, and type in English. The form fields are English, the intent classifier was trained on English, and the ticket that reaches a human is English, so the first input box quietly decides which language the whole conversation happens in. Someone whose electricity bill has doubled usually has that sentence ready in Hindi or Kannada and no interest in translating it for a text box before anyone will help them.
+A support flow starts with a text box, and that box decides the language before anyone has said anything. What gets typed is what the classifier reads, what the classifier reads becomes the ticket a human picks up, and a customer who would rather describe the problem out loud in Hindi or Kannada has to turn it into something a keyboard can produce first. Someone whose electricity bill has doubled already has the sentence ready. Typing it is the part they do not want to do.
 
 Speech models that cover Indian languages end to end move that decision somewhere better. If the complaint arrives as speech, gets understood in the language it was spoken in, and goes back out as speech in that same language, then English becomes something you generate for the agent rather than something you demand from the customer. Sarvam AI builds that set of models, and it is one of the three sponsor tools at Festive Hacks on 25 November, so this is a good week to find out what building on it is actually like.
 
@@ -105,7 +105,7 @@ Festive Hacks runs on 25 November at BIEC in Bengaluru, on the floor of WeAreDev
 
 The grand prize is a fully sponsored VIP trip to Berlin for the whole team for WeAreDevelopers World Congress 2027, flights and stay included, plus ₹1 Lakh in cash and Keychron keyboards. Accepted hackers get a free conference pass, and tickets for the two conference days are ₹999 with the code WEMAKEDEVS999.
 
-The themes are all festive-season problems rather than technology categories, which suits a voice project well. Wedding season covers RSVPs, vendor tracking and the shagun ledger. Going home is tatkal alerts, sold-out buses and cab splits. There is also gifting, year-in-review recaps, get-togethers, and surviving December on a budget. Each one is full of people who would rather say a sentence than fill in a form, which is the shape of problem Sarvam is good at.
+The themes are all festive-season problems rather than technology categories, which suits a voice project well. Wedding season covers RSVPs, vendor tracking and the shagun ledger. Going home is tatkal alerts, sold-out buses and cab splits. There is also gifting, year-in-review recaps, get-togethers, and surviving December on a budget. Each one puts someone on a phone, in a hurry, describing a situation to another person, which is the shape of problem Sarvam is good at.
 
 You can [apply on Luma from the Festive Hacks page](https://www.wemakedevs.org/hackathons/festivehacks), and the [resources page](https://www.wemakedevs.org/hackathons/festivehacks/resources) collects the quickstarts for all three tools in one place.
 
