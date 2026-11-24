@@ -20,6 +20,8 @@ Shikayat Desk, shikayat being the Hindi word for complaint, is a support desk fo
 
 There is no language dropdown anywhere on that screen, which is the entire point. The only input is a record button and a timer that stops itself at 25 seconds, because the synchronous speech-to-text endpoint rejects audio longer than 30.
 
+The desk is running at [shikayat-desk.onrender.com](https://shikayat-desk.onrender.com) and the code is at [github.com/aayush-wemakedevs/shikayat-desk](https://github.com/aayush-wemakedevs/shikayat-desk), so you can talk to it before you build anything of your own. It is a free instance, so the first request after a quiet spell waits on a cold start, and it is capped at six complaints per address every ten minutes, because each one spends five paid API calls.
+
 ## From an API key to a first response
 
 You need a key from dashboard.sarvam.ai and one package. The SDK is `sarvamai`, the key goes in as a subscription key rather than a bearer token, and everything else is a method on one client.
@@ -93,6 +95,8 @@ Transcription, translation and the chat reply all land between 270 and 480 milli
 
 The measurements also show that close to 700 milliseconds of the wait belongs to nobody. The English translation and the ticket JSON are both for the human agent, and the caller's spoken answer does not depend on either, so running them in front of the response is the easiest thing to write rather than the right thing to ship. Taking the translation off the caller's path saves 273 milliseconds of the 4,084 that the four timed calls came to, and the ticket call behind it, which the response does not even report a time for, is roughly another 400.
 
+Those numbers are from the app on a laptop. The same commit on the free Oregon instance behind the link above took 1,817 ms to transcribe, 682 to translate, 1,014 to answer and 5,217 to speak, which is a little over twice as long end to end. Both the smaller machine and the longer trip to the API are inside that figure, and it is worth knowing before you promise anyone a response time measured on your own laptop.
+
 ## Confidence is not a quality signal
 
 One caution from testing. When I fed the desk a deliberately poor recording, the language detector did not hesitate or return a low score. It confidently picked the wrong language, at 99.9 percent, and the rest of the pipeline did exactly what it was told with that answer, producing a fluent reply built on a bad transcript.
@@ -113,7 +117,7 @@ You can [apply on Luma from the Festive Hacks page](https://www.wemakedevs.org/h
 
 Today is the 23rd, which leaves two clear days, and that is plenty if you spend them on the parts that are slow rather than on the idea.
 
-**Today.** Get a key and make the three calls work on their own, outside any app. Record ten seconds on your phone, run it through transcribe with no `language_code` set, and watch what comes back. Then send that text to the chat model and the reply to TTS. An hour of that tells you more about what your project can promise than a day of planning will.
+**Today.** Talk to the live desk first, in whatever language you speak, and watch the language chip and the four timings. Then get a key and make the three calls work on their own, outside any app. Record ten seconds on your phone, run it through transcribe with no `language_code` set, and watch what comes back. Then send that text to the chat model and the reply to TTS. An hour of that tells you more about what your project can promise than a day of planning will.
 
 **Tomorrow.** Put a screen in front of it. Recording in the browser, showing the detected language back to the user, and playing the returned audio are each small, but they are where the time goes on the day, and a working page the night before is what lets you spend the 25th on the part that is actually yours.
 
