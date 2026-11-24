@@ -2,13 +2,13 @@
 title: "Voice In, Voice Out: An Indian-Language Support Desk on Sarvam AI"
 description: What it takes to build a support desk that listens in Hindi and answers in Hindi, the five API calls behind one recording, the real timings, and the two things that broke.
 datePublished: 2026-11-23
-author: aayush-sharma
+author: kunal-kushwaha
 tags: [technical, sarvam, ai, hackathon]
 ---
 
 A support flow starts with a text box, and that box decides the language before anyone has said anything. What gets typed is what the classifier reads, what the classifier reads becomes the ticket a human picks up, and a customer who would rather describe the problem out loud in Hindi or Kannada has to turn it into something a keyboard can produce first. Someone whose electricity bill has doubled already has the sentence ready. Typing it is the part they do not want to do.
 
-Speech models that cover Indian languages end to end move that decision somewhere better. If the complaint arrives as speech, gets understood in the language it was spoken in, and goes back out as speech in that same language, then English becomes something you generate for the agent rather than something you demand from the customer. Sarvam AI builds that set of models, and it is one of the three sponsor tools at Festive Hacks on 25 November, so this is a good week to find out what building on it is actually like.
+Speech models that cover Indian languages end to end move that decision somewhere better. If the complaint arrives as speech, gets understood in the language it was spoken in, and goes back out as speech in that same language, then English becomes something you generate for the agent rather than something you demand from the customer. Sarvam AI builds that set of models, and it is one of the three sponsor tools at [Festive Hacks](https://www.wemakedevs.org/hackathons/festivehacks) on 25 November, so this is a good week to find out what building on it is actually like.
 
 I built a small support desk on the Sarvam APIs and put real complaints through it. The calls, the numbers and the two things that broke are all from that app.
 
@@ -24,7 +24,7 @@ The desk is running at [shikayat-desk.onrender.com](https://shikayat-desk.onrend
 
 ## From an API key to a first response
 
-You need a key from dashboard.sarvam.ai and one package. The SDK is `sarvamai`, the key goes in as a subscription key rather than a bearer token, and everything else is a method on one client.
+You need a key from [dashboard.sarvam.ai](https://dashboard.sarvam.ai) and one package. The SDK is [`sarvamai`](https://pypi.org/project/sarvamai/), the key goes in as a subscription key rather than a bearer token, and everything else is a method on one client.
 
 ```bash
 pip install -U sarvamai fastapi uvicorn python-multipart
@@ -35,7 +35,7 @@ from sarvamai import SarvamAI
 client = SarvamAI(api_subscription_key=os.environ["SARVAM_API_KEY"], timeout=35)
 ```
 
-That client is the whole surface area. Speech in is `client.speech_to_text.transcribe`, text in and text out is `client.chat.completions`, and speech out is `client.text_to_speech.convert`. The backend here is a single FastAPI file with one endpoint that the browser posts a recording to.
+That client is the whole surface area. Speech in is [`client.speech_to_text.transcribe`](https://docs.sarvam.ai/api-reference/speech-to-text/transcribe), text in and text out is `client.chat.completions`, and speech out is [`client.text_to_speech.convert`](https://docs.sarvam.ai/api-reference/text-to-speech/convert). The backend here is a single FastAPI file with one endpoint that the browser posts a recording to.
 
 ![One recording, five API calls](images/an-indian-language-voice-support-desk-on-sarvam-ai/call-flow.jpg)
 
